@@ -39,6 +39,13 @@ tk.Label(pantalla,text=' ',font=('Arial',5)).pack()
 #=============================
 
 
+TextoEntrada=tk.Entry().pack()
+
+#separador facil ===================
+tk.Label(pantalla,text=' ',font=('Arial',5)).pack()
+#=============================
+
+
 Boton1=tk.Button(pantalla,text='  Enviar  ',font=('Arial',10),justify='left').pack()
 
 #separador facil ===================
