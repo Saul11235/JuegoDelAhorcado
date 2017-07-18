@@ -9,3 +9,6 @@ def maniqui(fase):
 		l
 
 		'''
+
+
+#jbhj
