@@ -22,6 +22,13 @@ def _cerrarventana():
     pantalla.destroy()
 
 ###============================================
+
+def cambiarTextoboton():
+	if Boton1.text=='  Enviar  ':
+		print(2)
+	else:
+		print(3)
+
 ###============================================
 ###============================================
 ###============================================
@@ -46,13 +53,13 @@ tk.Label(pantalla,text=' ',font=('Arial',5)).pack()
 #=============================
 
 
-Boton1=tk.Button(pantalla,text='  Enviar  ',font=('Arial',10),justify='left').pack()
+Boton1=tk.Button(pantalla,text='  Enviar  ',font=('Arial',10),justify='left',command=lambda:cambiarTextoboton()).pack()
 
 #separador facil ===================
 tk.Label(pantalla,text=' ',font=('Arial',5)).pack()
 #=============================
 
-Boton1=tk.Button(pantalla,text='  Cerrar ventana  ',font=('Arial',10),justify='left',command=lambda:_cerrarventana()).pack()
+Boton2=tk.Button(pantalla,text='  Cerrar ventana  ',font=('Arial',10),justify='left',command=lambda:_cerrarventana()).pack()
 
 #separador facil ===================
 tk.Label(pantalla,text=' ',font=('Arial',5)).pack()
