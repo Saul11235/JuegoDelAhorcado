@@ -24,10 +24,10 @@ def _cerrarventana():
 ###============================================
 
 def cambiarTextoboton():
-	if Boton1.text=='  Enviar  ':
-		print(2)
+	if 1=='  Enviar  ':
+		Boton1.configure(text='  Juego Nuevo  ')
 	else:
-		print(3)
+		Boton1.configure(text='  Enviar  ')
 
 ###============================================
 ###============================================
