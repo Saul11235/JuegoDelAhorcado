@@ -1,3 +1,6 @@
+# Aviso
+Este código continúa en construcción
+
 # Bienvenido al juego del Ahorcado
 Este es un ejemplo simple de cómo utilizar libreriaas python 3, se utilizaran los módulos tkinter, y el proyecto se gestionará con github
 
