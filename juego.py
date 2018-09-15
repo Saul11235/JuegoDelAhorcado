@@ -14,7 +14,7 @@ def NuevoJuego():
 def validarletra(letraEntrada):
 	#ddevuelve true si la palabra cumple con las caracteristicas necesarias.
 	if condicion1&condicion2&condicion3:
-		return True:
+		return True
 	else:
 		return False
 
