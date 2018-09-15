@@ -33,9 +33,9 @@ def cambiarTextoboton():
 ###============================================
 def AlarmaVentana(*texto):
 	if texto.long==0:
-		Anuncio.configure(text=' Este programa fue escrito por Edwin Saul Pareja Molina, GPL3 '):
+		Anuncio.configure(text=' Este programa fue escrito por Edwin Saul Pareja Molina, GPL3 ')
 	else:
-		Anuncio.configure(text=texto):
+		Anuncio.configure(text=texto)
 
 
 ###============================================
